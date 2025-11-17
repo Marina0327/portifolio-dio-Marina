@@ -1,0 +1,70 @@
+
+/*Roots*/
+
+:root
+{
+    --primary-color:#6A4BC0;
+    --secundary-color:#9B8FEA;
+    --icon-color:#6A4BC0;
+    --color:#D9C7FF;
+    --color2:#B3D4FF;
+    --font-color:#EAF3FF;
+    --background-color: #1A1039;
+}
+
+
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color:var(--font-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+header
+{
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+.top
+{
+    margin-left: 1rem;
+    padding: 20px;
+    gap: 3rem;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.menu-top ul
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: space-between;
+    list-style: none;
+}
+.logoSite
+{
+    border-radius: 20px;
+    margin-left: 17.5rem;
+}
+.icon-ms-top
+{
+    padding-left: 34rem;
+    color: var(--icon-color);
+    font-size: 2rem;
+}
+
+
+footer p
+{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
