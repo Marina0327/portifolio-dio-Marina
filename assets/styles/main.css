@@ -11,9 +11,6 @@
     --font-color:#EAF3FF;
     --background-color: #1A1039;
 }
-
-
-
 body
 {
     display: flex;
@@ -37,8 +34,6 @@ header
     gap: 3rem;
     display: flex;
     flex-direction: row;
-    
-    
 }
 .menu-top ul
 {
@@ -59,8 +54,6 @@ header
     color: var(--icon-color);
     font-size: 2rem;
 }
-
-
 footer p
 {
     margin-bottom: 0;
