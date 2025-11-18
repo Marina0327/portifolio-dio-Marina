@@ -6,33 +6,36 @@
     --primary-color:#6A4BC0;
     --secundary-color:#9B8FEA;
     --icon-color:#6A4BC0;
+    --icon-color2:#6a36b4;
     --color:#D9C7FF;
     --color2:#B3D4FF;
+    --color3: #6a36b4;
+    --color4:#630fff;
     --font-color:#EAF3FF;
     --background-color: #1A1039;
+    --background-color2:#6a4bca;
     --border-color:#845fe8;
+    --border-color2:#5404c4;
     --line-color: #000000;
 }
-body
-{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--background-color);
-    color:var(--font-color);
-    font-family: "Roboto", sans-serif;
-}
+
+
 header
 {
+    position: sticky;
+    top: 0;
+    background-color:var(--background-color) ;
+    z-index: 999;
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px solid var(--line-color);
+    border-bottom: 3.5px solid var(--line-color); 
 }
 .top
 {
     margin-left: 1rem;
-    padding: 20px;
+    padding: 1.5rem;
     gap: 3rem;
     display: flex;
     flex-direction: row;
@@ -42,25 +45,64 @@ header
     display: flex;
     flex-direction: row;
     gap: 5rem;
+    font-family: "Oswald", sans-serif;
     justify-content: space-between;
     list-style: none;
-    font-weight: 600;
     font-size: 1rem;
+   font-weight: 900;
+}
+ul li
+{
+    transition: 0.6s;
+}  
+#Home:hover,
+#Projects:hover,
+#About:hover,
+#Contact:hover
+{
+    cursor: pointer;
+    font-weight: 800;
+    /* font-size: 1.4rem; */
+    transform: scale(1.1);
+    color: var(--color4);
 }
 .logoSite
 {
-    border-radius: 20px;
     margin-left: 17.5rem;
 }
 .icon-ms-top
 {
-    padding-left: 34rem;
+    padding-left: 35rem;
     color: var(--icon-color);
     font-size: 2rem;
+    transition: 500ms;
+}
+.icon-ms-top:hover
+{
+    color: #581cfd;
+    transition: 500ms;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color:var(--font-color);
+    font-family: "Roboto", sans-serif;
+}
+#icon-main /*add fuction*/
+{
+    color:  #400cd1;
+    font-size: 6rem;
+    rotate: calc(+52deg);
+    z-index:-1;
+    position: absolute;
+    padding-top: 22px;
+    margin-left: 1086px;
+    margin-bottom: 3080;
 }
 .inital-phase
 {
-    
     font-weight: 600;
     display: flex;
     flex-direction: column;
@@ -68,14 +110,51 @@ header
 }
 .inital-phase p
 {
-    
-    font-size: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3rem;
+    transition: 2.4;
+}
+.inital-phase button
+{
+    cursor: pointer;
+    color: #630fff;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 22px;
+    padding: 14px;
+    margin-right: 780px;
+    width: 23%;
+    border-radius: 20px;
+    margin-top: 15px;
+    transition: 2.5;
+    border: 3.5px solid #000000;
+    gap: 30px;
+}
+.inital-phase button i
+{
+    font-size: 28px;
+}
+.inital-phase button:hover
+{
+    color: #ffffff;
+    background-color:#6A4BC0;
+    transition: 2.5;
+}
+#part-one
+{
+    backface-visibility: visible;
+    font-size:8rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
 }
 #part-two
 {
+    font-size: 4.5rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
     color: var(--primary-color);
@@ -107,20 +186,29 @@ header
     margin-left:6rem;
     gap: 30px;
 }
-#gitHub-top-description
-{
-    font-size: 2rem;
-    color: #ffffff;
-}
-#linkedin-top-description
-{
-    font-size: 2rem;
-    color: #ffffff;
-}
+#gitHub-top-description,
+#linkedin-top-description,
 #email-top-description
 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: #ffffff;
+}
+.video-content iframe
+{
+    padding: 40px;
+    margin-left:380px ;
+}
+footer
+{
+    font-family: "Roboto"; 
+    font-weight: 400;
+    padding-bottom: 0;
+    width: 100vw;
+    height: 20vh;
+    transition: 1s;
+    color: #ffffff;
+    /*background-image: url('../images/header-image.png'); 
+    border-image: 4px solid var(--line-color);*/
 }
 footer p
 {
@@ -128,5 +216,11 @@ footer p
     margin-bottom: 0;
     display: flex;
     justify-content: center;
+}
+footer:hover
+{
+    
+    font-family: "Roboto"; 
+    transform: scale(1.1);
 }
 
