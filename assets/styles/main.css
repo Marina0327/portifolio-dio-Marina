@@ -83,6 +83,7 @@ ul li
 }
 #logo-top
 {
+    transition: 1s;
     cursor: pointer;
     margin-left: 16.5rem;
 }
@@ -251,20 +252,73 @@ ul li
 
 .video-content iframe
 {
+    cursor: pointer;
     margin: 4rem;
     padding: 2%;
     margin-left:20rem;
 }
 
-/*Conhecimentos*/
-#css-img,
-#html-img
+ /*KNOWLEDGE  =====*/
+.main-knowledge
 {
-    width: 30%;
-    height: 5%;
+    transition: 1s ease-in-out;
+    width: 100%;
+}   
+#word-knowledge
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 12px;
+    color:#d3d3d3;
+    background-color: var(--background-color2);
+    border: 2px solid white;
+    transition:  0.25s ease;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#word-knowledge:hover,
+#knowledge-img:hover
+{
+    transform: scale(1.02);
+    color: #ffffff;
+    background-color: var(--background-color2); 
+    
+}
+#knowledge-img
+{
+    cursor: pointer;
+    transition: scale(1.1) 3s;
+    margin-left: 9.5rem;
+    margin-bottom: 4rem;
+    border: 4px solid #ffffff;
 }
 
 
+/*Projects*/
+.main-projects
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-projects h2
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #ffffff99;
+}
+.main-projects h2:hover
+{
+    color: #ffffff;
+    transform: scale(1.02);
+}
 
 
 
