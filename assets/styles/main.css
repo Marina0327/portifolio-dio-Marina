@@ -180,7 +180,7 @@ ul li
 .descrition-about-me p 
 {
     width: 100%;
-    padding: 1.9rem;
+    padding:2.7rem;
     cursor: pointer;
     font-size: 1.4rem;
     font-family:'Times New Roman', Times, serif;
@@ -202,29 +202,30 @@ ul li
 }
 .descrition-about-me-connect 
 {
-    gap: 4rem;
+    gap: 1.4rem;
     display: flex;
     flex-direction: row;
     margin-left:1rem;
-    margin-right: 1rem;
+    margin-right: 0.70rem;
+    margin-top: 3.5rem;
 }
 #gitHub-top-description,
 #linkedin-top-description,
 #email-top-description 
 {
-    top: 9000px;
     font-size: 2rem;
     color: #ffffff;
-    margin: 1rem 1rem ;
 }
 #ver-projetos
 {
-    font-size: 1.2rem;
+    margin-left: 1px;
+    margin-bottom: 65px;
     cursor: pointer;
+    width: 100%;
     padding: 15px;
-    border-radius: 5rem;
+    border-radius: 40px;
     font-family:"Roboto", sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     background: linear-gradient(145deg, #bfa8ffc0, #9674f4d1);
     border: 2px solid black;
 }
@@ -233,11 +234,14 @@ ul li
     color: #000000;
     rotate: calc(380grad);
     font-size: 1.7rem;
+    margin-top: 10px;
+    padding-right: 20px;
 }
-
-
-
-
+.descrition-about-me-connect i:hover
+{
+    transition: 1s;
+    color: #ffffff;
+}
 /*Body Main Video*/
 
 .video-content iframe
