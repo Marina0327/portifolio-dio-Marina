@@ -257,10 +257,11 @@ ul li
 }
 
 /*Conhecimentos*/
-
+#css-img,
 #html-img
 {
-    backdrop-filter: calc(7.1);
+    width: 30%;
+    height: 5%;
 }
 
 
