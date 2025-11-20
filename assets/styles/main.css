@@ -115,7 +115,7 @@ ul li
     rotate: calc(+40deg);
     z-index:-1;
     position: absolute;
-    margin-left: 770px;
+    margin-left: 800px;
     margin-top:180px;
     width: 20%;
     height: 10%;
@@ -151,9 +151,16 @@ ul li
 }
 #part-two
 {
-    font-size: 4rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
     font-weight: 800;
+    
+}
+#part-two:hover
+{
+    cursor: pointer;
+    transition: 1s;
+    transform:scale(1.1);
     color: var(--primary-color);
 }
 
@@ -195,14 +202,11 @@ ul li
     transition: 1.4s;
     transform: perspective(solid);
 }
-#ver-projetos:hover
-{
-    color: #000000;
-    background-color: #630fff;
-}
+
+
 .descrition-about-me-connect 
 {
-    gap: 1.4rem;
+    gap: 4rem;
     display: flex;
     flex-direction: row;
     margin-left:1rem;
@@ -214,44 +218,50 @@ ul li
 #email-top-description 
 {
     font-size: 2rem;
+    color: #ffffff75;
+}
+#gitHub-top-description:hover,
+#linkedin-top-description:hover,
+#email-top-description:hover,
+#icon-arrow:hover
+{
     color: #ffffff;
 }
+
 #ver-projetos
 {
-    margin-left: 1px;
-    margin-bottom: 65px;
+    margin-left: 5px;
+    margin-bottom: 50px;
     cursor: pointer;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     border-radius: 40px;
     font-family:"Roboto", sans-serif;
     font-weight: 600;
     background: linear-gradient(145deg, #bfa8ffc0, #9674f4d1);
     border: 2px solid black;
 }
-.descrition-about-me-connect i
+#ver-projetos:hover
 {
     color: #000000;
-    rotate: calc(380grad);
-    font-size: 1.7rem;
-    margin-top: 10px;
-    padding-right: 20px;
+    background-color: #630fff;
 }
-.descrition-about-me-connect i:hover
-{
-    transition: 1s;
-    color: #ffffff;
-}
+
 /*Body Main Video*/
 
 .video-content iframe
 {
-    margin: 8rem;
+    margin: 4rem;
     padding: 2%;
     margin-left:20rem;
 }
 
+/*Conhecimentos*/
 
+#html-img
+{
+    backdrop-filter: calc(7.1);
+}
 
 
 
