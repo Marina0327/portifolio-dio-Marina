@@ -151,7 +151,7 @@ a
 .Contatct-links a
 {
     font-size: 40px;
-    color: #646464;
+    color: #393939;
 }
 .Contatct-links a:hover
 { 
@@ -190,6 +190,7 @@ a
 }         
 
                             /* KNOWLEDGE */
+
 .knowledge
 {
     display: flex;
@@ -197,21 +198,38 @@ a
     align-items: center;
     margin-top: 40px;
     margin-bottom: 180px;
+    transition: 2s;
 
 }
 .knowledge h2
 {
-    font-family:"ital";
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
     font-size: 40px;
-    color: #cf7b7b;
-    margin-bottom: 20px;
-
+    padding: 30px;
+    background-color: #9733f5;
+    color: #ffffff;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 40px;
+    transition: 1s;
+}
+.knowledge h2:hover
+{
+    transition: 1s;
+    background-color: #cfcfcf;
+    color: #9733f5;
+    border-color: #000000;
 }
 #knowledge-img
 {
     width: 50%;
-    margin-top: 30px;
-    transform: scale(1.1);
+    margin-top: 20px;
     cursor: pointer;
+    transition: 2.5s;
+}
+#knowledge-img:hover
+{
+    transform: scale(1.4);
+    transition: 2.5s;
 }
