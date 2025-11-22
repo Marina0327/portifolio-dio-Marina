@@ -1,3 +1,15 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+/*font-family: "Press Start 2P", system-ui;
+font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
+font-family: "Press Start 2P", system-ui;
+font-family: "Roboto", sans-serif;
+font-family: "Press Start 2P", system-ui;*/
+
 .body-container 
 {
     /*padding: 0px 2px !important;*/
@@ -16,7 +28,6 @@ header
     justify-content: space-between; 
     align-items: center; 
     background-color:#824eb3;
-
 }
 .ul-top,
 a
@@ -30,7 +41,7 @@ a
     font-weight: 800;
     font-family: "Roboto";
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     transition: 1s;
 }
 #home:hover,
@@ -39,7 +50,7 @@ a
 #contact:hover
 {
     cursor: pointer;
-    color: #ffffff;
+    color: #f2cfa4;
     transition: 1s;
     transform: scale(1.1);
     
@@ -47,7 +58,7 @@ a
 .icons-top 
 {
     display: flex;
-    gap: 34rem; 
+    gap: 38rem; 
 }
 #favio-icon-top
 {
@@ -65,15 +76,13 @@ a
 #butterfly-icon-top
 {
     transition: 0.6s;
-    color: #581cfd;
+    color: #7828e9;
     font-size: 30px;
 }
 #butterfly-icon-top:hover
 {
     transition: 1s;
-    color: #982aff;
-  
-
+    color: #7105ff;
 }
                               /*INITAL PHASE*/
 
@@ -82,7 +91,6 @@ a
     color: #ffffff;
     display: flex;
     justify-content: center;
-    
 }
 .inital-part h1
 {
@@ -94,10 +102,12 @@ a
 {
     transition: 1s;
     font-weight: 900;
+   color: #7934a7;
 }
 .highlighted-text:hover
 {
-    color: #5300ce;
+    color: #ffffff;
+    /*color: #5300ce;*/
     transition: 1s;
     transform: scale(1.1);
 }
@@ -106,15 +116,13 @@ a
     transform: rotate(25deg);
     font-size: 135px;
     transition: 0.8s;
+    color:#7934a7
 }
 #butterfly-inital-part:hover
 {
     color: #8401fe;
-    
 }
-
                                  /*DETAILS ABOU ME*/
-
 .details-about-me
 {
     font-family: sans-serif;
@@ -128,9 +136,11 @@ a
 }
 .details-about-me h2
 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     margin-left: 140px;
     justify-content: center;
-    color: #cf7b7b;
+    color: #e2ba89;
 }
 .description
 {
@@ -161,8 +171,9 @@ a
 }
 .Contatct-links button
 {
+    font-family: "Roboto", sans-serif;
     transition: 1s;
-    font-size: 20px;
+    font-size:20px;
     padding: 10px;
     background-color: #7934a7;
     color: #ffffff;
@@ -178,6 +189,9 @@ a
     background-color: #ffffff;
     border-color: #7934a7;
     font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+
 }
 
                                /*VIDEO-CONTENT*/
@@ -188,9 +202,7 @@ a
     justify-content: center;
     padding: 140px 40px;
 }         
-
-                            /* KNOWLEDGE */
-
+                     /* KNOWLEDGE */
 .knowledge
 {
     display: flex;
@@ -199,34 +211,24 @@ a
     margin-top: 40px;
     margin-bottom: 180px;
     transition: 2s;
-
 }
 .knowledge h2
 {
     font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-size: 40px;
-    padding: 30px;
-    background-color: #9733f5;
-    color: #ffffff;
+    font-size: 50px;
+    justify-content: center;
+    padding: 22px;
+    color: #ffb794;
     margin-bottom: 30px;
-    border: 2px solid white;
-    border-radius: 40px;
-    transition: 1s;
 }
-.knowledge h2:hover
-{
-    transition: 1s;
-    background-color: #cfcfcf;
-    color: #9733f5;
-    border-color: #000000;
-}
+
 #knowledge-img
 {
     width: 50%;
     margin-top: 20px;
     cursor: pointer;
     transition: 2.5s;
+    border: 4px solid #000000;
 }
 #knowledge-img:hover
 {
@@ -276,14 +278,14 @@ a
     flex-direction: column;
     align-items: center;
     font-family: "Poppins", sans-serif;
-    padding: 15px;
+    padding: 20px;
 }
                 /*PIANO*/
 .piano-project
 {
     margin: 25px;
     padding: 20px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid #ffffff;
     display: flex;
 }
 .piano-project img
@@ -294,6 +296,17 @@ a
 {
     font-size: 24px;
     margin-left: 8px;
+}
+.piano-project h3
+{
+    margin-top: 150px;
+    font-size: 20px;
+    color: #ffd877;
+    cursor: pointer;
+    padding: 15px;
+    border-radius:25px;
+    transition: 1s;
+    border: 2px solid #ea9841;
 }
             /*MEMORY*/
 
@@ -310,8 +323,20 @@ a
 }
 .memory-project p
 {
-    font-size: 24px;
+    font-size: 24.4px;
     margin-left: 8px;
+}
+.memory-project h3
+{
+    margin-top: 150px;
+    font-size: 20px;
+    color: #ffd877;
+    cursor: pointer;
+    padding: 15px;
+    border-radius:25px;
+    border: 2px solid #ea9841;
+    transition: 1s;
+
 }
 
             /*POKEDEX*/
@@ -319,64 +344,94 @@ a
 .pokedex-project
 {
     padding: 20px;
-    border: 3px solid white;
+    border: 3px solid rgb(255, 255, 255);
     display: flex;
     margin: 25px;
 }
 .pokedex-project img
 {
-    width: 25%;
+    width: 22%;
 }
 .pokedex-project p
 {
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 8px;
 }
 
+.pokedex-project h3
+{
+    margin-top: 180px;
+    font-size: 20px;
+    color: #ffd877;
+    cursor: pointer;
+    padding: 15px;
+    border-radius:25px;
+    border: 2px solid #ea9841;
+    transition: 1s;
+}
+.projects h3:hover
+{
+    transform: scale(1.1);
+    transition: 1s;
+}
 
+
+
+
+/*ABOUT ME*/
 .main-about-me
 {
-    margin-top: 160px;
-    margin-bottom: 160px;
+    width: 100%;
+    padding:30px;
+}
+.sobre-mim 
+{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.main-about-me h2
-{
     color: #ffb794;
-    margin-bottom: 10px;
-    font-size: 70px;
+    font-size: 40px;
 }
+.main-about-me img
+{
+    display: flex;
+    width: 25%;
+    border-radius: 50%;
+    border: 6px solid #130a1e;
+    margin-bottom: 30px;
+}
+
 #text-about-me
 {
-    margin: 20px;
-    padding: 30px;
-    font-size: 24px;
+    display: flex;
+    padding: 40px;
+    font-size: 20px;
     color: #000000;
-    border: 6px solid rgb(19, 10, 30);
-    background-color: rgb(193, 193, 193);
+    border: 4px solid #f6f3fa;
+    color: #c1c1c1;
     border-radius: 60px;
 }
+
 #languages
 {
+    font-family: "Roboto", sans-serif;
     display: flex;
     font-size: 25px;
     margin-top: 20px;
     margin-bottom: 10px;
     transition: 1.5s;
-    font-weight: 200;
+    font-weight: 400;
 
 }
 #conecte-se-comigo
 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     margin-top: 15px;
     font-size: 25px;
     transition: 1.5s;
     cursor: pointer;
     color: white;
-    font-weight: 200;
-
 }
 #languages:hover,
 #conecte-se-comigo:hover
@@ -387,31 +442,49 @@ a
 }
 #curriculum
 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
     margin-top: 25px;
     font-size: 20px ;
     transition: 2s;
-    border: 2px solid #000000;
+    border: 2px solid #fffdfd;
     padding: 12px;
     border-radius: 60px;
-    color: #000000;
+    color: #ffffff;
     text-transform: uppercase;
-    background-color: #ffffff;
+    background-color: #0f0e0e;
     cursor: pointer;
 }
 #curriculum:hover
 {
+    font-family: "Roboto", sans-serif;
     transform: scale(1.1);
     transition: 1s;
     color: #ffffff;
-    background-color: #000000;
-    border-color: #ffffff;
-
+    background-color: #8948b4;
+    border-color: #000000;
 }
 #curriculum i
 {
     font-size: 25px;
     font-weight: 40;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer
 {
     display: flex;
