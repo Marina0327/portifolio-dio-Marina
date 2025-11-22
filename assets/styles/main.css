@@ -233,3 +233,58 @@ a
     transform: scale(1.4);
     transition: 2.5s;
 }
+
+
+                                /*PROJECTS*/
+.projects
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+    /*background-color: #c49999;*/
+
+}
+.projects h2
+{
+    font-family: "Poppins", sans-serif;
+    color: #e3b198;
+}
+.projects i
+{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.projects summary
+{
+    color: #f6eb76;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.projects details
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+}
+.piano-project
+{
+    padding: 20px;
+    border: 3px solid white;
+    display: flex;
+}
+.piano-project img
+{
+    width: 22%;
+}
+.piano-project p
+{
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+
+
