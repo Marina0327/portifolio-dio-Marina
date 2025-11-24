@@ -10,8 +10,10 @@ font-family: "Press Start 2P", system-ui;
 font-family: "Roboto", sans-serif;
 font-family: "Press Start 2P", system-ui;*/
 
+
 .body-container 
 {
+    touch-action: none;
     /*padding: 0px 2px !important;*/
     font-family: "Oswald";
     background-color: #2b0053;
@@ -27,13 +29,14 @@ header
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    background-color:#4f4bcc;
+    background-color:#3f2e82;
 }
 .ul-top,
 a
 {
     display: flex;
     gap: 27px; 
+    cursor: pointer;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -44,17 +47,20 @@ a
     color: #9b9494;
     transition: 1s;
 }
-#home:hover,
-#projects:hover,
-#about:hover,
-#contact:hover
+.Projects:hover,
+.About:hover,
+.Curses:hover,
+.Home:hover
 {
-    cursor: pointer;
     color: #ffffff;
     transition: 1s;
     transform: scale(1.1);
-    
 }
+
+
+
+
+
 .icons-top 
 {
     display: flex;
@@ -66,7 +72,6 @@ a
     width: 100%;
     height: 100%;
     margin-top: 10px;
-    
 }
 #favio-icon-top:hover
 {
@@ -82,7 +87,7 @@ a
 #butterfly-icon-top:hover
 {
     transition: 1s;
-    color: #7105ff;
+    color: #350474;
 }
                               /*INITAL PHASE*/
 
@@ -106,7 +111,7 @@ a
 }
 .highlighted-text:hover
 {
-    color: #ffffff;
+    color: #6b08ff;
     /*color: #5300ce;*/
     transition: 1s;
     transform: scale(1.1);
@@ -120,7 +125,7 @@ a
 }
 #butterfly-inital-part:hover
 {
-    color: #8401fe;
+    color: #6b08ff;
 }
                                  /*DETAILS ABOU ME*/
 .details-about-me
@@ -181,6 +186,7 @@ a
     border-radius: 30px;
     display: flex;
     gap: 10px;
+    touch-action: none;
 }
 .Contatct-links button:hover
 {
@@ -328,7 +334,7 @@ a
 }
 .memory-project h3
 {
-    margin-top: 150px;
+     margin-top: 180px;
     font-size: 20px;
     color: #ffd877;
     cursor: pointer;
@@ -448,7 +454,7 @@ a
     margin-top: 18px;
     margin-left: 24px;
     color: #ffb794;
-    width: 16%;
+    width: 14%;
     padding: 5.4PX;
     border: 2px solid #fff4f4;
     border-radius: 20PX;
@@ -468,11 +474,11 @@ a
     transition: 2s;
     border: 2px solid #000000;
     width: 13%;
-    padding: 10px;
+    padding: 15px;
     border-radius: 60px;
     color: #ffffff;
     text-transform: uppercase;
-    background-color: #5a85e2;
+    background-color: #5a65e2;
     cursor: pointer;
 }
 #curriculum:hover
@@ -491,32 +497,32 @@ a
 
 .formation
 {
-    padding: 70px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 250px;
 }
 .formation h2
 {
     font-family: "Poppins", sans-serif;
-    font-size: 40px;
+    font-size: 42px;
     color: #ffb794;
     margin-right: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 .formation img
 {
-    width: 6%;
-    margin-right: 30px;
+    width: 12%;
+    margin-right: 60px;
     border: 3px solid #f66f00;
 }
 .formation p 
 {
     font-size: 22px;
-    width: 50%;
+    width: 75%;
     line-height: 1.5;
 }
-
 .curses
 {
     display: flex;
@@ -525,9 +531,6 @@ a
     justify-content: center;
     margin-bottom: 70px;
     font-family: "Poppins", sans-serif;
-        gap: 40px;
-
-
 }
 .curses h2
 {
@@ -546,7 +549,13 @@ a
 {
     transition: 1s;
     padding: 15px;
-    border : 3px solid #ffffff;
+    margin-bottom: 40px;
+    border: 4px solid #000000;
+}
+.curses img
+{
+    margin-left: 250px;
+    margin-bottom: 20px;
 }
 div span p
 {
@@ -557,9 +566,9 @@ div span p
     transition: 1s;
     margin-top: 30px;
     margin-left: 220px;
-    width: 28%;
+    width: 26%;
     padding:5px;
-    border-radius: 30px;
+    border-radius: 40px;
     border: 2px solid #ffee00;
 }
 .curses span p:hover
@@ -570,56 +579,38 @@ div span p
     color: #000000;
     transition: 1s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer
+.redirect
 {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    transition: 1s;
+    color: #333;
+    padding: 20px;
+    width: 68%;
+    margin-left: 220px;
+    border: 4px solid rgb(149, 21, 204);
+    border-radius: 20px;
+}
+.redirect a
+{
+    font-size: 25px;
+    cursor: pointer;
+}
+.redirect a:hover
+{
+    transform: scale(1.1);
+    transition: 1s;
+    color: #ffffff;
+}
+
+footer
+{
+    font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: center;
     margin: 15px;
+    font-size: 16px;
 }

@@ -22,10 +22,10 @@
     <header id="header">
         <nav class="menu-top">
             <ul class="ul-top">
-                <li><a href="#Home" id="home">Home</a></li>
-                <li><a href="#Projects" id="projects">Projects</a></li>
-                <li><a href="#About" id="about">About</a></li>
-                <li><a href="#Contact" id="contact">Contact</a></li>
+                <li class="Home"><a href="#home">Home</a></li>
+                <li class="Projects"><a href="#projects">Projects</a></li>
+                <li class="About"><a href="#about">About</a></li>
+                <li class="Curses"><a href="#curses">Curses</a></li>
             </ul>
         </nav>
         <div class="icons-top">
@@ -34,12 +34,12 @@
         </div>
     </header>
     <main>
-        <div class="inital-part">
+        <div id="home" class="inital-part">
             <h1>Soluções Criativas & <br><span class="highlighted-text">Desenvolvimento Front-end</span></h1>
             <i id="butterfly-inital-part" class="bi bi-bluesky"></i>
         </div>
         <section class="details-about-me">
-            <h2>Sobre mim:</h2>
+            <h2>Descrição:</h2>
             <p class="description"> Marina Santos - São Paulo, desenvolvedora full-stack e Estudante de ADS</p>
             <div class="Contatct-links">
                  <a id="gitHub-top-description"   href="https://github.com/Marina0327" target="_blank"><i class="bi bi-github"></i></a>
@@ -60,8 +60,8 @@
             <img id="knowledge-img" src="/assets/images/knowledge.png" alt="image of language html">
         </section>
 
-        <section class="projects">
-            <h2>projetos</h2>
+        <section id="projects" class="projects">
+            <h2 id="projects">projetos</h2>
             <i  id="laptop" class="bi bi-laptop"></i>
             <details>
               <summary>clique aqui para ver meus projetos<span id="observation">(*OBS: Projetos feitos pelo bootcamp da DIO)</span></summary>
@@ -95,7 +95,7 @@
 
 
     
-            <section class="main-about-me">
+            <section id="about" class="main-about-me">
                     <h2 class="sobre-mim">sobre mim</h2>    
                     <div class="about-me-informations">
                      <img src="./assets/images/foto-MarinaSantosjpeg.jpeg">
@@ -119,10 +119,10 @@
                 <img src="https://media.licdn.com/dms/image/v2/D4D0BAQENQUXvgIvu5A/company-logo_200_200/company-logo_200_200/0/1733140845896/brazcubasoficial_logo?e=1765411200&v=beta&t=SKikoc_pSpj6oA2qdLTiQvU_2dSjbmN9_bXGXG5IEP4">
                 <p>Centro Universitário Braz Cubas
                 Análise e Desenvolvimento de Sistemas Análise e Desenvolvimento de Sistemas 
-                fev de 2025 - dez de 2026fev de 2025 - dez de 2026
+                fev de 2025 - dez de 2026 fev de 2025 - dez de 2026
                 </p>
             </section>
-            <section class="curses">
+            <section id="curses" class="curses">
                 <h2>Cursos</h2>
                 <details>
                  <summary>clique aqui para ver meus cursos e certificações</summary>
@@ -169,8 +169,14 @@
                       <span><p>ver credencial</p></span>
                     </div>            
                 </details>
-         
             </section>
+            <div class="redirect">
+                <a href="#home">Voltar ao topo</a>
+                <a href="#projects">Ir para Projetos</a>
+                <a href="#about">Ir para Sobre Mim</a>
+                <a href="#curses">Cursos</a>
+
+            </div>
         </main>
             <footer>
                 <p>@2025 Made by Developer Marina Santos with Tech Elidiana Andrade</p>
