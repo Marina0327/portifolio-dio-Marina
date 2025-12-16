@@ -173,7 +173,9 @@ a
     font-size: 40px;
     color: #393939;
 }
-.Contato-links a:hover
+#gitHub-top-description:hover,
+#linkedin-top-description:hover,
+#email-top-description:hover
 { 
     color: #ffffff;
     transition: 1s;
